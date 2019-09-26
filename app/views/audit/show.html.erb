@@ -1,0 +1,31 @@
+<div class="table-responsive">          
+<table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Type</th>
+      <th>Action</th>
+      <th>Price</th>
+      <th>Changes</th>
+      <th>Version</th>
+      <th>Address</th>
+      <th>Modified at</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      <td><%= @audit.auditable_id %>  </td>
+      <td><%= @audit.auditable_type %></td>
+      <td><%= @audit.action %></td>
+      <td><%= @audit.audited_changes %></td>
+      <td><%= @audit.version %></td>
+      <td><%= @audit.remote_address %></td>
+      <td><%= @audit.request_uuid %></td>
+      <td><%= @audit.created_at %></td>
+      </tr>
+
+  </tbody>
+</table>
+</div
+

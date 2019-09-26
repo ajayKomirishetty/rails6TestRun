@@ -1,0 +1,44 @@
+<% flash.each do |key, value| %>
+  <div class="alert alert-<%= key %>">
+    <a href="#" data-dismiss="alert" class="close">×</a>
+    <ul>
+      <li>
+        <%= value %>
+      </li>
+    </ul>
+  </div>
+<% end %>
+
+<h1 class="text-center" style="color:magenta;"> Welcome to Amazing Kart Products </h1>
+
+
+<br>
+
+<a href="/products/new" class="btn btn-primary my-4 mr-1" style="float:right;">Add a  new product </a>
+
+<div class="table-responsive">          
+<table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Price</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+  <% @products.each do |product| %>
+    
+    <tr>
+      <td><%= product.id %></td>
+      <td><%= product.name %></td>
+      <td><%= product.description %></td>
+      <td><%= product.price %></td>
+      <td><a href="/products/<%= product.id %>">view</a></td>
+    </tr>
+    <% end %>
+
+  </tbody>
+</table>
+</div

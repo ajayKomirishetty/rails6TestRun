@@ -1,0 +1,66 @@
+<% flash.each do |key, value| %>
+  <div class="alert alert-<%= key %>">
+    <a href="#" data-dismiss="alert" class="close">×</a>
+    <ul>
+      <li>
+        <%= value %>
+      </li>
+    </ul>
+  </div>
+<% end %>
+
+
+<div class="container">
+  <h2>You are editing editing Product <h3 style="color:magenta;"><%= @product.name %> </h3></h2>
+  <form action="/products/<%= @product.id  %>/edit">
+    <input type="hidden" name="lock_version" value="<%= @product.lock_version %>"> 
+    <div class="form-group" style="padding-top:50px">
+       <label for="email">id:</label>
+       <input type="text" class="form-control" id="id" placeholder="Enter product name" disabled="disabled" name="id" value = "<%= @product.id %>"value = "<%= @product.name %>">
+    </div>
+    <div class="form-group">
+      <label for="email">Name:</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter product name" name="name" value = "<%= @product.name %>"value = "<%= @product.name %>">
+    </div>
+    <div class="form-group">
+      <label for="email">Description:</label>
+      <input type="text" class="form-control" id="description" placeholder="Enter product description" name="description"  value = "<%= @product.description %>">
+    </div>
+    <div class="form-group">
+      <label for="email">Name:</label>
+      <input type="text" class="form-control" id="price" placeholder="Enter product price" name="price" value = "<%= @product.price %>">
+    </div>
+    <button type="submit" class="btn btn-default btn-primary">Update</button>
+  </form>
+</div>
+
+<br><br><br>
+
+<div class="container">
+<h3>Audit Logs</h3>
+<br><br> 
+<div class="table-responsive">          
+  <table class="table">
+    <% if @product.audits.count > 0 %>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Type</th>
+          <th>view</th>
+        </tr>
+      </thead>
+      <tbody>
+      <% @product.audits.each do |audit| %>
+            
+          <tr>
+            <td><%= audit.id %></td>
+            <td><%= audit.action %></td>
+            <td><a href="/audits/<%= audit.id %>">view</a></td>
+          </tr>
+
+        </tbody>
+      <% end %>
+    <% end %>
+</table>
+</div>
+</div
