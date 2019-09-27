@@ -17,7 +17,10 @@ class GreetUser extends React.Component {
       <React.Fragment>
         <div class = "container text-center">
           <h2> Welcome to Amazing Kart</h2>
-          View all products here  <a href = "/products"><h3 class="d-inline-block">Products</h3></a>
+          View all products here  
+          <a href = "/products">
+            <h3 class="d-inline-block">Products</h3>
+          </a>
         </div>
       </React.Fragment>
     )

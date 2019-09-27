@@ -58190,3 +58190,97 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 4726ms (Views: 4713.3ms | ActiveRecord: 0.0ms | Allocations: 1611025)
 
 
+Started GET "/" for ::1 at 2019-09-27 12:32:42 +0530
+  [1m[35m (4.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.4ms | Allocations: 588)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in D:/ajay/rails/git/rails6TestRun/public/packs
+Completed 200 OK in 12114ms (Views: 12101.1ms | ActiveRecord: 0.0ms | Allocations: 1613534)
+
+
+Started GET "/" for ::1 at 2019-09-27 12:33:44 +0530
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 209)
+Completed 200 OK in 77ms (Views: 74.9ms | ActiveRecord: 0.0ms | Allocations: 9145)
+
+
+Started GET "/" for ::1 at 2019-09-27 12:38:56 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 197)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in D:/ajay/rails/git/rails6TestRun/public/packs
+Completed 200 OK in 8311ms (Views: 8309.5ms | ActiveRecord: 0.0ms | Allocations: 11393)
+
+
+Started GET "/" for ::1 at 2019-09-27 12:40:08 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 84)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in D:/ajay/rails/git/rails6TestRun/public/packs
+Completed 200 OK in 7341ms (Views: 7339.8ms | ActiveRecord: 0.0ms | Allocations: 10473)
+
+
+Started GET "/" for ::1 at 2019-09-27 12:42:19 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 83)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in D:/ajay/rails/git/rails6TestRun/public/packs
+Completed 200 OK in 6470ms (Views: 6469.0ms | ActiveRecord: 0.0ms | Allocations: 10472)
+
+
+Started GET "/" for ::1 at 2019-09-27 12:43:41 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 201)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in D:/ajay/rails/git/rails6TestRun/public/packs
+Completed 200 OK in 6455ms (Views: 6453.8ms | ActiveRecord: 0.0ms | Allocations: 11393)
+
+
+Started GET "/" for ::1 at 2019-09-27 12:44:41 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 83)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in D:/ajay/rails/git/rails6TestRun/public/packs
+Completed 200 OK in 8352ms (Views: 8351.2ms | ActiveRecord: 0.0ms | Allocations: 10477)
+
+
+Started GET "/" for ::1 at 2019-09-27 12:44:54 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 84)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 0.0ms | Allocations: 8164)
+
+
+Started GET "/" for ::1 at 2019-09-27 12:45:39 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 83)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms | Allocations: 8150)
+
+
+Started GET "/" for ::1 at 2019-09-27 12:46:02 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 83)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in D:/ajay/rails/git/rails6TestRun/public/packs
+Completed 200 OK in 7830ms (Views: 7829.3ms | ActiveRecord: 0.0ms | Allocations: 10472)
+
+
