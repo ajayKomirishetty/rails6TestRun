@@ -58170,3 +58170,23 @@ Processing by ProductController#display_all as HTML
 Completed 200 OK in 78ms (Views: 74.5ms | ActiveRecord: 0.3ms | Allocations: 7642)
 
 
+Started GET "/" for ::1 at 2019-09-27 12:25:42 +0530
+  [1m[35m (4.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.6ms | Allocations: 481)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in D:/ajay/rails/git/rails6TestRun/public/packs
+Completed 200 OK in 18629ms (Views: 18615.9ms | ActiveRecord: 0.0ms | Allocations: 1611272)
+
+
+Started GET "/" for ::1 at 2019-09-27 12:30:15 +0530
+  [1m[35m (5.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.8ms | Allocations: 481)
+Completed 200 OK in 4726ms (Views: 4713.3ms | ActiveRecord: 0.0ms | Allocations: 1611025)
+
+
